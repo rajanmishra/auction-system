@@ -91,7 +91,7 @@ Closing Auctions: Only the client who started the auction can close it, determin
 
 
 
-9. **Approch:**
+9. **Approach:**
 
 
     In approaching the development of the P2P auction system, I began by setting up a basic client, server using HyperDHT and HyperSwarm/RPC to understand the request-response model and ensure basic communication between clients and the server. This foundational setup helped me grasp the essentials of peer discovery and handling RPC calls effectively.
@@ -101,7 +101,7 @@ Closing Auctions: Only the client who started the auction can close it, determin
     Once this was up and running, a significant challenge was broadcasting information to all connected clients in real-time. Initially experimenting with DHT lookup and announcements for broadcasting,  but didn't had much success. Refining the approach, I opted for a request-respond model where each client and their own server communicated with a auction server. This method proved more reliable for broadcasting updates and notifications to all clients simultaneously.
 
 
-    After tested thoroughly I improvised the code and documentation.
+    After testing thoroughly I improvised the code and documentation.
 
 
 
